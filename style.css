@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 5px grey;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.right > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.nav-container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.nav-container1 > .right-half > span{
+    font-weight: 300;
+}
+.nav-container1 > .right-half{
+    display: flex;
+    gap: 20px;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+
+}
+.card{
+    width : 250px;
+    height: 400px;
+    padding: 11px;
+}
+.card-image{
+    width : 250px;
+    height :200px;
+}
+.offer-container{
+    display: flex;
+    padding: 10px 0px;
+    border-bottom: 0.1px solid gray;
+}
+.rating-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 0.1px solid gray;
+}
+.card p{
+    margin: 5px 0;
+    font-weight: 100;
+}
+.bullet{
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content:space-around ;
+    margin-top: 50px;
+}
+.card:hover{
+    outline: 1px solid gray;
+}
